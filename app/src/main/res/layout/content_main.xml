@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/color_light_red"
+    tools:context="org.shaoownwang.heart.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar2"
+        android:visibility="gone"
+        android:layout_below="@+id/seek_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <org.shaoownwang.heart.RippleView
+        android:id="@+id/ripple_view"
+        android:layout_below="@+id/seek_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" />
+
+    <org.shaoownwang.heart.HeartView
+        android:id="@+id/heart_view"
+        android:layout_below="@+id/seek_bar2"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Hello World!" />
+</RelativeLayout>

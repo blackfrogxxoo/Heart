@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Heart</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_ripple_color1">ripple起始色</string>
+    <string name="action_ripple_color2">ripple终止色</string>
+    <string name="action_heart_color">heart色</string>
+</resources>

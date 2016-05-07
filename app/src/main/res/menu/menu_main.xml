@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.shaoownwang.heart.MainActivity">
+    <item
+        android:id="@+id/action_ripple_color1"
+        android:orderInCategory="100"
+        android:title="@string/action_ripple_color1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ripple_color2"
+        android:orderInCategory="100"
+        android:title="@string/action_ripple_color2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_heart_color"
+        android:orderInCategory="100"
+        android:title="@string/action_heart_color"
+        app:showAsAction="never" />
+</menu>
