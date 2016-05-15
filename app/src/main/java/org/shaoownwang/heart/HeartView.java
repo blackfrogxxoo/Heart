@@ -50,10 +50,17 @@ public class HeartView extends View {
             if(i==offset) {
                 path1 = new Path();
                 path2 = new Path();
+                x1 += 1;
+                x2 -= 1;
                 path1.moveTo(x1, y);
                 path2.moveTo(x2, y);
                 continue;
             } else {
+                if( i== n-offset-1) {
+                    x1 += 1;
+                    x2 -= 1;
+                }
+
                 if(x1<=x2) {
                     path1.lineTo(x1, y);
                     path2.lineTo(x2, y);
